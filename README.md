@@ -38,7 +38,11 @@ The analysis pipeline is categorized into three major components:
 │   ├── fig5_pseudotime
 │   │   └── 09_fig5_trajectory_analysis.R
 │   ├── fig6_pyscenic
-│   │   └── 10_fig6_pyscenic_regulons.R
+│   │   ├── 10a_export_to_loom.R
+│   │   ├── 10b_grn_inference.py
+│   │   ├── 10c_ctx_motif_enrichment.py
+│   │   ├── 10d_aucell_scoring.py
+│   │   └── 10e_fig6_pyscenic_downstream.R
 │   ├── fig7_xenium
 │   │   └── 11_fig7_xenium_spatial.R
 │   ├── fig8_kidney_rctd
