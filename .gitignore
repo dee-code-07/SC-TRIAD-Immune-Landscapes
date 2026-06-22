@@ -1,0 +1,48 @@
+# History files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# Session Data files
+.Rprofile
+.Rproj.user/
+
+# Example code in package build process
+*-Ex.R
+/*.tar.gz
+/*.Rcheck/
+
+# Output files
+*.pdf
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Data files
+*.csv
+*.tsv
+*.txt
+*.rds
+*.RDS
+*.Rds
+*.rda
+*.Rda
+*.h5
+*.h5ad
+*.h5Seurat
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
